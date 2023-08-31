@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+}
+
+section{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header{
+    background-color: black;
+    height: 200px;
+}
+
+header nav a{
+    color: white;
+    text-decoration: none;
+}
+
+header .logotipo{
+    float: left;
+}
+
+header nav ul li{
+    float: left;
+}
