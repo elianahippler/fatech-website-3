@@ -12,7 +12,8 @@ section{
 
 header{
     background-color: black;
-    height: 200px;
+    height: 120px;
+    padding: 10px;
 }
 
 header nav a{
@@ -20,10 +21,18 @@ header nav a{
     text-decoration: none;
 }
 
-header .logotipo{
+header .logo{
     float: left;
 }
 
 header nav ul li{
     float: left;
+}
+
+header .logo img{
+    width: 110px;
+}
+
+header nav{
+    margin-top: 20px;
 }
