@@ -53,13 +53,14 @@ header nav{
     background-position: top center;
     background-repeat: no-repeat;
     z-index: -99;
+    background-attachment: fixed;
 } 
 
 .slider{
     position: relative;
 }
 
-.texto-dir{
+.texto-dir, .text-esq{
     position: absolute;
     top: 167px;
     color: white;
@@ -72,4 +73,20 @@ header nav{
 .texto-dir h1{
     font-size: 100px;
     font-weight: bold;
+}
+
+.text-esq{
+    right: 10%;
+    left: auto;
+    line-height: 25px;
+    padding-top: 25px;
+}
+
+.text-esq b{
+    font-weight: 900;
+}
+
+.texto-dir h1{
+    font-size: 100px;
+    font-weight: 900;
 }
