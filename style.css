@@ -3,6 +3,7 @@
 body{
     font-family: 'Montserrat', sans-serif;
     font-size: 22px;
+    overflow-x: hidden;
 }
 
 section{
@@ -36,19 +37,19 @@ section{
 }
 
 header .logo img{
-    width: 110px;
-    border-radius: 50%;
+    width: 250px;
+    margin-top: 5px;
+    margin-right: 5px;
 }
 
 header nav{
     padding-top: 22px;
 }
 
-.background{
-    background-image: url(img/home.png);
+.background, .background img{
     display: block;
-    width: 100%;
-    height: 690px;
+    width: 99vw;
+    height: 80vh;
     content:"";
     background-position: top center;
     background-repeat: no-repeat;
